@@ -44,8 +44,9 @@ This project is designed to classify emails as spam or not spam using machine le
 │   ├── app.py  # Streamlit web app
 │   ├── extract_from_bz2.py  # Extracts specific files
 │   ├── extracting_all.py  # Extracts all files
-│── spam_classifier.pkl  # Naïve Bayes model (legacy)
-│── spam_classifier_logistic.pkl  # Recommended model
+│── model
+│   ├──spam_classifier.pkl  # Naïve Bayes model (legacy)
+│   │── spam_classifier_logistic.pkl  # Recommended model
 ```
 
 ## Dependencies
