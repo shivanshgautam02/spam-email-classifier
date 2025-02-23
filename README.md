@@ -1,4 +1,4 @@
-# Spam Detection Web App
+# Spam Detection ML 
 
 ## Overview
 This project is designed to classify emails as spam or not spam using machine learning models. It utilizes the SpamAssassin Public Corpus dataset, which must be downloaded and placed inside the `data/` folder. The web application is built using Streamlit, providing an easy-to-use interface for spam detection.
@@ -31,7 +31,7 @@ This project is designed to classify emails as spam or not spam using machine le
 
 ## Project Structure
 ```
-/project-root
+/spam-email-classifier
 │── data/
 │   ├── 20021010_easy_ham.tar.bz2
 │   ├── 20030228_spam.tar.bz2
