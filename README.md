@@ -1,4 +1,4 @@
-# Spam Detection ML 
+# Spam Mail Detection using ML 
 
 ## Overview
 This project is designed to classify emails as spam or not spam using machine learning models. It utilizes the SpamAssassin Public Corpus dataset, which must be downloaded and placed inside the `data/` folder. The web application is built using Streamlit, providing an easy-to-use interface for spam detection.
@@ -17,8 +17,8 @@ This project is designed to classify emails as spam or not spam using machine le
 3. **Train the Spam Classification Model:**
    - Three Jupyter notebooks are available for training:
      - `notebook.ipynb` (Naïve Bayes model, `spam_classifier.pkl`)
-     - `notebook2.ipynb` (Logistic Regression, `spam_classifier_logistic.pkl`)
-     - `notebook3.ipynb` (Logistic Regression with improved text preprocessing, `spam_classifier_logistic.pkl`)
+     - `notebook2.ipynb` (Logistic Regression, `spam_classifier_LogisticRegressi.pkl`)
+     - `notebook3.ipynb` (Logistic Regression with improved text preprocessing, `spam_classifier_LogisticRegressi.pkl`)
    - Currently, **`notebook3.ipynb` is recommended** for better results.
 
 4. **Run the Web App:**
