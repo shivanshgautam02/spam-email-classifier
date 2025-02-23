@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+email
+numpy
+matplotlib
+streamlit
